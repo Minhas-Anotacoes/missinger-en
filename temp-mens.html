@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta name="author" content="Emilly Sasaki">
+    <meta name="description" content="Aplicativo de mensagens do jogo">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <script src="https://kit.fontawesome.com/ec92409f57.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="estilos/estilomensagem.css">
+
+    <title>Mensagem</title>
+    <link rel="icon" href="./imagens/favicon.png" type="image/png">
+</head>
+
+<body>
+    <div class="celular">
+        <div class="painel">
+            <div class="icon-apps">
+                <i class="fa-regular fa-comment" style="color: #eee;"></i>
+                <i class="fa-brands fa-bluesky" style="color: #eee;"></i>
+                <i class="fa-solid fa-phone-slash" style="color: #eee;"></i>
+            </div>
+            <div class="sinais">
+                <i class="fa-solid fa-signal" style="color: #eee;"></i>
+                <i class="fa-solid fa-wifi" style="color: #eee;"></i>
+                <span>12:00</span>
+            </div>
+        </div>
+        <div class="grupo">
+            <div class="informacoes-grupo">
+                <div class="voltar-grupo">
+                    <i class="fa-solid fa-arrow-left fa-xl" style="color: #eee;"></i>
+                </div>
+                <div class="detalhes-grupo">
+                    <h3 style="margin-bottom: 2px; font-size: 18px;">Nome do grupo</h3>
+                    <p style="margin-top: 0; font-size: 12px;"><em>Descrição do grupo</em></p>
+                </div>
+                <div class="foto-grupo">
+                    <img src="https://image.cdn2.seaart.ai/2023-08-28/15564263557962757/51fb263b73d7a884b203ef00b3a9ca15fe4921c0_high.webp"
+                        alt="gatinho" width="100%">
+                </div>
+            </div>
+        </div>
+        <div class="chat">
+            <div class="mensagens-pessoa">
+                <div class="balao" style="--i: 0;">
+                    <h4 style="color: paleturquoise;">Aqua</h4>
+                    <p>Gentem vocês viram??</p>
+                </div>
+                <div class="balao" style="--i: 1;">
+                    <h4 style="color: palegreen;">João</h4>
+                    <p>O que??</p>
+                </div>
+                <div class="balao" style="--i: 2;">
+                    <h4 style="color: palegoldenrod;">Maria</h4>
+                    <p>Conta logo a fofoca!</p>
+                </div>
+                <div class="balao" style="--i: 3;">
+                    <h4 style="color: paleturquoise;">Aqua</h4>
+                    <p>Sabe o aluno número 1 da nossa turma?</p>
+                </div>
+                <p class="balao" style="--i: 4;">Ele está desaparecido faz dias</p>
+                <div class="balao" style="--i: 5;">
+                    <p>Ou seja, agora a <strong style="color: palegreen;">@G.Leia</strong> pode finalmente ocupar o posto de primeiro lugar</p>
+                </div>
+                <div class="balao" style="--i: 6;">
+                    <h4 style="color: palegoldenrod;">Maria</h4>
+                    <p>kkkkkkkkkk verdade!</p>
+                </div>
+            </div>
+            <div class="mensagens-eu escolhas">
+                <a class="balao escolha" style="--i: 7;" href="#escolha-a" target="_self">
+                    <p>Fazer eles pararem</p>
+                </a>
+                <a class="balao escolha" style="--i: 7;" href="#escolha-b" target="_self">
+                    <p>Não fazer nada</p>
+                </a>
+            </div>
+            <div id="escolha-a">
+                <div class="mensagens-eu">
+                    <div class="balao" style="--i: 0;">
+                        <p>Parem gente</p>
+                        <p>Um colega nosso desapareceu, não é hora pra brincadeiras</p>
+                    </div>
+                </div>
+                <div class="mensagens-pessoa">
+                    <div class="balao" style="--i: 1;">
+                        <h4 style="color: palegreen;">G.Leia</h4>
+                        <p>Pois é, eu ainda estou em choque... um amigo é mais importante do que o pódio de primeiro lugar.</p>
+                    </div>
+                </div>
+            </div>
+            <div id="escolha-b">
+                <div class="mensagens-pessoa">
+                    <div class="balao" style="--i: 0;">
+                        <h4 style="color: palegreen;">G.Leia</h4>
+                        <p>Não falem isso, um amigo é mais importante que o pódio de primeiro lugar.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="enviar">
+            <p class="caixa-texto">Mensagem</p>
+            <i class="fa-solid fa-paper-plane fa-lg botao-enviar" style="color: #8ccc9a;"></i>
+        </div>
+        <div class="botoes">
+            <div class="botao">
+                <i class="fa-solid fa-caret-left fa-2x" style="color: #a2a2a2;"></i>
+            </div>
+            <div class="separador"></div>
+            <div class="botao">
+                <a href="telainicial.html" target="_blank"><i class="fa-regular fa-circle-dot fa-xl"
+                        style="color: #a2a2a2;"></i></a>
+            </div>
+            <div class="separador"></div>
+            <div class="botao">
+                <i class="fa-solid fa-stop fa-xl" style="color: #a2a2a2;"></i>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

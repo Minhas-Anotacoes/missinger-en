@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta name="author" content="Emilly Sasaki">
+    <meta name="description" content="[PT-BR] Final Bom - Você escolheu a pessoa certa!">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+    rel="stylesheet">
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-color: black;
+            color: #eee;
+            font-family: "Inter", sans-serif;
+            height: 100%;
+        }
+        
+        div {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        
+        h1 {
+            text-align: center;
+            margin: 50px;
+        }
+        
+        .fadeIn {
+            /* Animaçaão */
+            opacity: 0;
+            animation: fadeIn 3s forwards;
+        }
+        
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+            
+            100% {
+                opacity: 1;
+            }
+        }
+
+        .fadeInOut {
+            animation: fadeInOut 5s linear 1 forwards;
+        }
+        
+        @keyframes fadeInOut {
+            0% {
+                opacity: 0;
+            }
+            50% {
+                opacity: 1;
+            }
+            100% {
+                opacity: 0;
+            }
+        }
+        
+        img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+        }
+        
+        #first {
+            opacity: 0;
+        }
+        
+        #segundo {
+            opacity: 0;
+            animation-delay: 6s;
+        }
+        #terceiro {
+            opacity: 0;
+            animation-delay: 12s;
+        }
+        #quarto {
+            opacity: 0;
+            animation-delay: 19s;
+        }
+        
+        </style>
+
+<title>Final Bom</title>
+<link rel="icon" href="./imagens/favicon.png" type="image/png">
+</head>
+
+<body>
+    <div>
+        <h1 id="primeiro" class="fadeIn">Eu não estou acreditando que a Paula fez isso... </h1>
+        <h1 id="segundo" class="fadeIn">Nós éramos tão próximas e ela sempre me pareceu lutar contra todas as injustiças.</h1>
+        <h1 id="terceiro" class="fadeIn">M4as Não pode ser...``{`{`2309`}`U*&T&%}`</h1>
+        <!-- <img id="quarto" class="fadeIn" src="./imagens/capa-missinger.png" alt=""> -->
+    </div>
+</body>
+
+</html>
